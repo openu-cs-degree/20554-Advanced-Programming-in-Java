@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Circle?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="360.0" prefWidth="440.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HelloController">
+    <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" />
+        <ColumnConstraints hgrow="SOMETIMES" />
+        <ColumnConstraints hgrow="SOMETIMES" />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints vgrow="SOMETIMES" />
+        <RowConstraints vgrow="SOMETIMES" />
+        <RowConstraints vgrow="SOMETIMES" />
+    </rowConstraints>
+    <children>
+        <AnchorPane GridPane.columnIndex="1">
+            <children>
+                <Circle fx:id="uCarRed" fill="#ff1f1f" layoutX="37.0" layoutY="23.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle layoutX="37.0" layoutY="60.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="uCarGreen" fill="#1df82b" layoutX="37.0" layoutY="97.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="uPedRed" fill="#ff1f1f" layoutX="110.0" layoutY="30.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="uPedGreen" fill="#1df82b" layoutX="110.0" layoutY="71.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+                <HBox>
+                    <children>
+                        <ImageView fitHeight="120.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@car_light.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@ped_light.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </HBox>
+            </children>
+        </AnchorPane>
+        <AnchorPane GridPane.rowIndex="1">
+            <children>
+                <Circle fx:id="lCarRed" fill="#ff1f1f" layoutX="37.0" layoutY="23.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle layoutX="37.0" layoutY="60.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="lCarGreen" fill="#1df82b" layoutX="37.0" layoutY="97.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="lPedRed" fill="#ff1f1f" layoutX="110.0" layoutY="30.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="lPedGreen" fill="#1df82b" layoutX="110.0" layoutY="71.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+                <HBox>
+                    <children>
+                        <ImageView fitHeight="120.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@car_light.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@ped_light.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </HBox>
+            </children>
+        </AnchorPane>
+        <AnchorPane GridPane.columnIndex="1" GridPane.rowIndex="2">
+            <children>
+                <Circle fx:id="bCarRed" fill="#ff1f1f" layoutX="37.0" layoutY="23.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle layoutX="37.0" layoutY="60.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="bCarGreen" fill="#1df82b" layoutX="37.0" layoutY="97.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="bPedRed" fill="#ff1f1f" layoutX="110.0" layoutY="30.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="bPedGreen" fill="#1df82b" layoutX="110.0" layoutY="71.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+                <HBox>
+                    <children>
+                        <ImageView fitHeight="120.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@car_light.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@ped_light.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </HBox>
+            </children>
+        </AnchorPane>
+        <AnchorPane GridPane.columnIndex="2" GridPane.rowIndex="1">
+            <children>
+                <Circle fx:id="rCarRed" fill="#ff1f1f" layoutX="37.0" layoutY="23.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle layoutX="37.0" layoutY="60.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="rCarGreen" fill="#1df82b" layoutX="37.0" layoutY="97.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="rPedRed" fill="#ff1f1f" layoutX="110.0" layoutY="30.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="rPedGreen" fill="#1df82b" layoutX="110.0" layoutY="71.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+                <HBox>
+                    <children>
+                        <ImageView fitHeight="120.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@car_light.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@ped_light.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </HBox>
+            </children>
+        </AnchorPane>
+    </children>
+</GridPane>

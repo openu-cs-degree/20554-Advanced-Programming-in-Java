@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" spacing="20.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="NotebookController">
+   <children>
+      <HBox>
+         <children>
+            <Button mnemonicParsing="false" onAction="#backToChoiceScene" text="←" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" spacing="16.0">
+         <children>
+            <HBox alignment="CENTER">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" text="Year: " textAlignment="CENTER" />
+                  <ComboBox fx:id="comboBoxYear" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" text="Month: " textAlignment="CENTER" />
+                  <ComboBox fx:id="comboBoxMonth" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" text="Day: " textAlignment="CENTER" />
+                  <ComboBox fx:id="comboBoxDay" />
+               </children>
+            </HBox>
+            <Button mnemonicParsing="false" onAction="#loadNote" text="Load" />
+            <Button mnemonicParsing="false" onAction="#saveNote" text="Save" />
+         </children>
+      </HBox>
+      <TextArea fx:id="textArea" prefHeight="200.0" prefWidth="200.0" />
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>

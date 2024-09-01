@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mmn11q2.HelloController">
+   <children>
+      <Canvas fx:id="myCanvas" height="480.0" width="640.0" />
+      <HBox prefHeight="50.0" prefWidth="640.0">
+         <children>
+            <Button fx:id="myButton" mnemonicParsing="false" onAction="#buttonClick" text="Button" />
+            <Label fx:id="myLabel" alignment="CENTER" contentDisplay="CENTER" prefHeight="50.0" prefWidth="480.0" text="TITLE" textAlignment="CENTER">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+   </children>
+</Pane>
